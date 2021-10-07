@@ -16,8 +16,8 @@ airfare = read.csv("airfare_info550.csv")
 library(ggplot2)
 # install.packages('gridExtra')
 # install.packages('readxl')
-library(gridExtra)
-library(readxl)
+# library(gridExtra)
+# library(readxl)
 ```
 
 **1 Data Cleaning**
