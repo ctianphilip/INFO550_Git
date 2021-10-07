@@ -12,8 +12,12 @@ How to run, type in your command line:
 	(1)# first change your pwd to this INFO550_Git directory.
 	
 	     	(using cd ./ in MacOS)
+		
+	(2)# you will need to install some R packages. The required packages can be installed using R commands.
+
+		install.packages('ggplot2')
 	
-	(2) # from directory where rmarkdown_chen.Rmd file lives:
+	(3)# from directory where rmarkdown_chen.Rmd file lives:
 	
 		Rscript -e "rmarkdown::render('rmarkdown_chen.Rmd')"
 	
