@@ -1,6 +1,8 @@
 # INFO550_Git
  
 This is the readme file for INFO 550 git exercise.
+For my project, I will analyze the `airfare_info550.csv` data.
+
 File included:
 
 	rmarkdown_chen.Rmd
