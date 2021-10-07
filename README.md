@@ -9,7 +9,7 @@ File included:
 
 How to run, type in your command line:
 
-	(1) first change your pwd to this INFO550_Git directory.
+	(1) first change your pwd to this INFO550_Git directory.(using cd ./ in MacOS)
 	
 	(2) # from directory where rmarkdown_chen.Rmd file lives
 	
