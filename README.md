@@ -6,4 +6,4 @@ File included:
 	airfare_info550.csv
 
 How to run:
-	
+	type:
