@@ -8,6 +8,7 @@ File included:
 	airfare_info550.csv
 
 How to run, type in your command line:
+
 	(1) first change your pwd to this INFO550_Git directory.
 	
 	(2) # from directory where rmarkdown_chen.Rmd file lives
