@@ -5,6 +5,8 @@ For my project, I will analyze the `airfare_info550.csv` data.
 
 File included:
 
+	makefile
+
 	rmarkdown_chen.Rmd
 	
 	airfare_info550.csv
