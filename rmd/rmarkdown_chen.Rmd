@@ -6,13 +6,17 @@ output:
   html_document: default
 ---
 
+```{r, echo = FALSE, eval = TRUE, warning = FALSE, message=FALSE}
+here::i_am('rmd/rmarkdown_chen.Rmd')
+```
 
 This dataset is from the Domestic Airline Consumer Airfare Report and contains contains information about flights between pairs of cities and airpods, as well as related airfare information. The data ranges from the first quarter of 1996 to the first quarter of 2017. The data is stored on the 'airfare_info550.csv' file.
 
 
 ```{r, echo = FALSE, eval = TRUE, warning = FALSE, message=FALSE}
 # load the data and packages
-airfare = read.csv("data/airfare_info550.csv")
+airfare = read.csv(here::here('data','airfare_info550.csv'))
+
 library(ggplot2)
 
 ```
