@@ -31,6 +31,6 @@ How to run, type in your command line:
 		
 		# or 
 		
-		Rscript -e "rmarkdown::render('rmarkdown_chen.Rmd')"
+		Rscript -e "rmarkdown::render('rmd/rmarkdown_chen.Rmd')"
 	
 This will create a file called airfare_info550.pdf output in your directory that contains the results.
