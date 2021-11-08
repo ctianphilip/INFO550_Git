@@ -7,17 +7,14 @@ output:
 ---
 
 
-This dataset is from the Domestic Airline Consumer Airfare Report and contains contains information about flights between pairs of cities and airpods, as well as related airfare information. The data ranges from the first quarter of 1996 to the first quarter of 2017. The data is stored on the 'data\airfare_info550.csv' file.
+This dataset is from the Domestic Airline Consumer Airfare Report and contains contains information about flights between pairs of cities and airpods, as well as related airfare information. The data ranges from the first quarter of 1996 to the first quarter of 2017. The data is stored on the 'airfare_info550.csv' file.
 
 
 ```{r, echo = FALSE, eval = TRUE, warning = FALSE, message=FALSE}
 # load the data and packages
 airfare = read.csv("data/airfare_info550.csv")
 library(ggplot2)
-# install.packages('gridExtra')
-# install.packages('readxl')
-# library(gridExtra)
-# library(readxl)
+
 ```
 
 **1 Data Cleaning**
@@ -55,7 +52,7 @@ table(table_df$year, table_df$quarter)
 
 # check for missing values in each column
 missing_values = colSums(apply(table_df, MARGIN = 2, FUN = is.na))
-# missing_values[missing_values>0]
+
 # sum the number of missing values in each year
 missing = table_df[is.na(table_df$lg_fare), ]
 sort(table(missing$year), decreasing = TRUE)
