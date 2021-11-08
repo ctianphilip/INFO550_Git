@@ -13,9 +13,13 @@ File included:
 
 How to run, type in your command line:
 
-	(1)# you will need to install some R packages. The required packages can be installed using R commands.
-
-		install.packages('ggplot2')
+	(1)# you will need to install some R packages.
+		
+		here
+		
+		rmarkdown
+		
+		ggplot2
 		
 	(2)# first change your pwd to this INFO550_Git directory.
 	
