@@ -5,7 +5,7 @@ For my project, I will analyze the `airfare_info550.csv` data.
 
 File included:
 
-	makefile
+	Makefile
 
 	rmarkdown_chen.Rmd
 	
@@ -21,8 +21,12 @@ How to run, type in your command line:
 	
 	     	(using cd ./ in MacOS)
 	
-	(3)# from directory where rmarkdown_chen.Rmd file lives:
-	
+	(3)# from directory where rmarkdown_chen.Rmd file lives, you can run either of the commands:
+		
+		make
+		
+		# or 
+		
 		Rscript -e "rmarkdown::render('rmarkdown_chen.Rmd')"
 	
 This will create a file called airfare_info550.pdf output in your directory that contains the results.
